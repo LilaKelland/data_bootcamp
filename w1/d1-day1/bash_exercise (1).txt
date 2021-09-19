@@ -1,0 +1,90 @@
+## Use this file to document the commands and write the results you get.
+
+
+
+
+
+
+#### 1. Download the data from <look in week1, day1 exercise>
+ 
+
+
+#### 2. How many rows does the dataset have?
+ wc -l cast.csv
+
+
+ 3634468 (including header)
+
+
+
+
+#### 3. Change the delimiter to ";"
+sed "s/,/;/g" cast.csv cast.csv
+
+
+
+
+#### 4. Output the header into the separate file cast_header.csv and remove it from the data
+head -1 cast.csv > cast_header.csv
+sed -i ‘’ 1d cast.csv 
+
+
+ 
+#### 5. How many movies did Pierce Brosnan play in?
+ cat cast.csv | cut -d ";" -f 3 | sort | uniq -c | grep "Pierce Brosnan" 
+  58 
+
+
+OR
+ grep   "Pierce Brosnan" cast.csv | sort | wc -l
+      58
+
+
+
+
+#### 6. Were there more superman movies or batman movies?
+cat cast.csv | cut -d ";" -f 1 | sort | uniq -c | grep "Batman" |wc -l
+      26
+
+
+cat cast.csv | cut -d ";" -f 1 | sort | uniq -c | grep "Superman" |wc -l
+      20
+
+
+BATMAN
+
+
+
+
+#### 7. How many roles are in this database?
+
+
+cat cast.csv | cut -d ";" -f5 | sort | uniq -c |wc -l
+ 1509354
+
+
+
+
+
+
+#### 8. What is the most often played role?
+$ cut -d';' -f5 cast.csv | sort | uniq -c | sort -rn | head -n 1
+43297 actor
+
+
+
+
+
+
+#### 9. What is the most frequent movie name?
+
+
+​​cat cast.csv | cut -d ";" -f1 | sort | uniq -c | sort -rn | head -1
+1298 Around the World in Eighty Days
+
+
+Or 
+
+
+cut -d';' -f1 cast.csv | sort | uniq -c | sort -rn | head -n 1
+1298 Around the World in Eighty Days
