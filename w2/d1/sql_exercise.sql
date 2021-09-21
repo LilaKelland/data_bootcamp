@@ -7,7 +7,7 @@ You can download it here: https://drive.google.com/file/d/1E3KQDdGJs4a0i1RoYb8DE
 
 -- MAKE YOURSELF FAIMLIAR WITH THE DATABASE AND TABLES HERE
 
-
+SELECT * FROM tables
 
 
 
