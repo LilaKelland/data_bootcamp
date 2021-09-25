@@ -1,0 +1,11 @@
+,index,#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Generation,Legendary,Total_Attack,random_column
+0,488,440,Happiny,Normal,,440,100,5,5,15,65,30,4,False,20,filler
+1,121,113,Chansey,Normal,,900,250,5,5,35,105,50,1,False,40,filler
+2,230,213,Shuckle,Bug,Rock,1010,20,10,230,10,230,5,2,False,20,filler
+3,261,242,Blissey,Normal,,1080,255,10,10,75,135,55,2,False,85,filler
+4,139,129,Magikarp,Water,,400,20,10,55,15,20,80,1,False,25,filler
+5,381,349,Feebas,Water,,400,20,15,20,10,55,80,3,False,25,filler
+6,68,63,Abra,Psychic,,620,25,20,15,105,55,90,1,False,125,filler
+7,508,458,Mantyke,Water,Flying,690,45,20,50,60,120,50,4,False,80,filler
+8,179,165,Ledyba,Bug,Flying,530,40,20,30,40,80,55,2,False,60,filler
+9,189,175,Togepi,Fairy,,490,35,20,65,40,65,20,2,False,60,filler

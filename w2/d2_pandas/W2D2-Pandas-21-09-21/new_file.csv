@@ -1,0 +1,15 @@
+,#,Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Generation,Legendary
+163,150,MewtwoMega Mewtwo X,Psychic,Fighting,780,106,190,100,154,100,130,1,True
+164,150,MewtwoMega Mewtwo Y,Psychic,,780,106,150,70,194,120,140,1,True
+422,382,KyogrePrimal Kyogre,Water,,770,100,150,90,180,160,90,3,True
+423,383,Groudon,Ground,,670,100,150,140,100,90,90,3,True
+424,383,GroudonPrimal Groudon,Ground,Fire,770,100,180,160,150,90,90,3,True
+425,384,Rayquaza,Dragon,Flying,680,105,150,90,150,90,95,3,True
+426,384,RayquazaMega Rayquaza,Dragon,Flying,780,105,180,100,180,100,115,3,True
+428,386,DeoxysNormal Forme,Psychic,,600,50,150,50,150,50,150,3,True
+429,386,DeoxysAttack Forme,Psychic,,600,50,180,20,180,20,150,3,True
+543,486,Regigigas,Normal,,670,110,160,110,80,110,100,4,True
+707,644,Zekrom,Dragon,Electric,680,100,150,120,120,100,90,5,True
+711,646,KyuremBlack Kyurem,Dragon,Ice,700,125,170,100,120,90,95,5,True
+796,719,DiancieMega Diancie,Rock,Fairy,700,50,160,110,160,110,110,6,True
+798,720,HoopaHoopa Unbound,Psychic,Dark,680,80,160,60,170,130,80,6,True
