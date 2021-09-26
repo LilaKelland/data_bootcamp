@@ -9,4 +9,12 @@
 - D6 - SQL, pandas
 
 ### WEEK 2
-D1
+- D1 - SQL
+- D2 - pandas!
+- D3 - json, xml and other dtyps with pandas (api challenge)
+- D4 - mini-project (api coverage)
+- D5 - stats (conditional prob and CLT)
+- D6 - regex and intro to data vis
+
+### WEEK 3
+- D1
