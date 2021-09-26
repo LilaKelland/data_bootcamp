@@ -12,7 +12,7 @@
 - D1 - SQL
 - D2 - pandas!
 - D3 - json, xml and other dtyps with pandas (api challenge)
-- D4 - mini-project (api coverage)
+- D4 - mini-project (api coverage - yelp vs foursquare)
 - D5 - stats (conditional prob and CLT)
 - D6 - regex and intro to data vis
 
