@@ -1,0 +1,36 @@
+DV = Numeric & Not fluctuating like an ECG = Regression problem = Linear Regression, RandomForest Regressor, SVM Regressor, XGBoost Regressor etc.
+
+
+DV = Numeric & fluctuating like an ECG = Time Series Problem = VAR, ARIMA, GARIMA, SARIMA (all weak and outdated except Finance Industry) = New Trend with Neural Networks (LSTMs)
+
+
+DV = Categorical (<=5 classes in DV) = Classification Problem = Logistic Regression (Binary or Multinomial), Naive Bayes, Random Forest, XGBoost, CART, LDA, Latent Dirichlet Allocation etc.
+
+>5 classes in DV = at least 4K rows of each class (Naive Bayes)
+
+
+=====================Deep Learning=========================
+
+Images / Videos (Computer Vision) = CNN, GAN
+
+Text & Numbers = LSTM, RNN, BERT, ERNIE, BART - NLP
+
+Creation of images, music = Autoencoders and RBMs
+
+Recommender Systems (Netflix) = Neural Networks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

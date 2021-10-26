@@ -1,0 +1,32 @@
+Data - Choose Target Variable - Choose Algorithm
+
+Data Preprocessing - Missing Values, Scaling, Normalization, One-Hot encoding / Label encoding, Binning of continuous variables, Combine / reduce levels (classes) for categorical variables, PCA
+
+If classification - Imbalance - Oversampling, Undersampling, SMOTe, Bootstrapping, 
+
+Define Data Types (Categorical / Numerical)
+
+Train / Test Split
+
+Training (fit the model) - Back & Forth for Optimization / Trying different P&C 
+
+Testing / Validation (model.predict) - Actual vs. predicted
+
+Deploy
+
+Refurbish
+
+
+Linear Regression
+
+p-Values - <0.05
+Adjusted R2 Value - >0.95
+Durbin Watson - As close to "2" as possible
+AIC / BIC - as low as possible
+
+Logistic Regression
+p-Values - <0.05
+McFadden Score is between 0.2 - 0.4
+Iterations / Fisher Scoring Iterations - <10
+Sensitivity & Specificity - >0.9
+AUC-ROC - >0.8
