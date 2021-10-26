@@ -31,7 +31,7 @@ api.add_resource(Greet, '/greet',)
 
 if __name__ == '__main__':
     # app.run(debug=True)
-    app.run(host='0.0.0.0', port=8080, debug=True, reloader=True) # run on computer
+    app.run(host='0.0.0.0', port=8080, debug=True, ) # run on computer
 
     # note if pass name in url like: http://127.0.0.1:5000/greet?name=John then response will {
 #   "greeting": "Hello John!"
